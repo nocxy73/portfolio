@@ -46,3 +46,8 @@ body {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
+
+#presentation li {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
