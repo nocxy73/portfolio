@@ -4,8 +4,12 @@ body {
 
 #link {
     border: none;
+    border-radius: 25px;
+    max-width: 500px;
     margin: auto;
+    margin-top: 25px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #link a {
@@ -27,8 +31,8 @@ body {
     border-radius: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 130px auto;
-    max-width: 640px;
-    padding-left: 10px;
+    max-width: 800px;
+    padding: 10px;
 }
 
 #presentation h2{
