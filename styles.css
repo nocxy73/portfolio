@@ -117,3 +117,9 @@ body {
     margin-bottom: -5px;
     color: #4a47a3;
 }
+
+#presentation2 p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
