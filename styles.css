@@ -35,6 +35,12 @@ body {
     max-width: 800px;
     padding: 10px;
 }
+#presentation h1{
+    text-align:  left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -5px;
+    color: #4a47a3;
+}
 
 #presentation h2{
     text-align:  left;
@@ -87,4 +93,27 @@ body {
 
 #contact a:hover {
     color:#45a049;
+}
+
+#presentation2 {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 130px auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+#presentation2 h1{
+    text-align:  left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -5px;
+    color: #4a47a3;
+}
+
+#presentation2 h2{
+    text-align:  left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -5px;
+    color: #4a47a3;
 }
