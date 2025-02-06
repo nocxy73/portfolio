@@ -53,3 +53,38 @@ body {
     margin-top: 15px;
     margin-left: 20px;
 }
+
+#contact {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 130px auto;
+    max-width: 800px;
+    padding: 10px;
+}
+#contact h2{
+    text-align:  left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -5px;
+    color: #4a47a3;
+}
+#contact p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#contact a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#contact a:hover {
+    color:#45a049;
+}
