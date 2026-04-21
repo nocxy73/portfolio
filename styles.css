@@ -648,7 +648,7 @@ strong { font-weight: 600; color: var(--color-text); }
 /* ---------- Contact ---------- */
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
 }
 
@@ -677,7 +677,10 @@ strong { font-weight: 600; color: var(--color-text); }
 
 .contact-item a {
     font-weight: 500;
-    word-break: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
 }
 
 /* ---------- Footer ---------- */
