@@ -648,7 +648,7 @@ strong { font-weight: 600; color: var(--color-text); }
 /* ---------- Contact ---------- */
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
 }
 
@@ -658,6 +658,7 @@ strong { font-weight: 600; color: var(--color-text); }
     border-radius: var(--radius);
     padding: 1.3rem 1.5rem;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    min-width: 0;
 }
 
 .contact-item:hover {
@@ -677,6 +678,7 @@ strong { font-weight: 600; color: var(--color-text); }
 
 .contact-item a {
     font-weight: 500;
+    font-size: 0.92rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -722,9 +724,19 @@ strong { font-weight: 600; color: var(--color-text); }
         gap: 1.75rem;
     }
 
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
     .hero-meta {
         gap: 0.6rem;
         flex-direction: column;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
